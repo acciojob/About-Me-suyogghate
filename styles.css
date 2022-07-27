@@ -1,1 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+    background-color: rgb(224, 222, 222);
+    font-family: 'Ubuntu', sans-serif;
+}
 
+.container{
+    height: 500px;
+    width: 1075px;
+    margin: 100px 200px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: rgb(254, 252, 252);
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    /* grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr; */
+    row-gap: 12px;
+    column-gap: 12px;
+    box-shadow: 12px 12px 20px gray;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+/* #skill-image{
+    height: 50px;
+    width: 50px;
+} */
+
+/* .item{
+    background-color: aqua;
+} */
+
+.item_1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-top: 10px;
+    height: 247px;
+    width: 265px;
+    /* text-align: center;
+    justify-content: center; */
+}
+
+.item_2{
+    margin-top: 10px;
+    margin-left: 70px;
+    width: 300px;
+    height: 247px;
+}
+
+.item_3{
+    margin-top: 10px;
+    margin-left: 170px;
+    padding-left: 15px;
+    padding-top: 15px;
+    font-size: 35px;
+    width: 455px;
+    height: 475px;
+}
+
+/* .blue-line{
+    height: 1px;
+    width: 5px;
+    background-color: blue;
+} */
+hr{
+    opacity: 0.7;
+    color: blue;
+}
+
+p{
+    font-size: 15px;
+}
+
+.skill-heading{
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.item_4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 205px;
+    width: 585px;
+    margin-top: 65px;
+    /* margin-left: ; */
+}
+
+.info{
+    margin-top: 33px;
+    padding: 40px 20px;
+    font-size: 18px;
+}
+
+.skill-section{
+    margin-top: -10px;
+}
+/*
+.skills{
+    margin-top: 70px;
+}
+
+.column-1{
+    
+} */
